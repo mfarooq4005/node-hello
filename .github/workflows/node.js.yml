@@ -8,7 +8,7 @@ on:
 jobs:
   build:
 
-    runs-on: dev # Replace with the label of your self-hosted runner
+    runs-on: self-hosted # Replace with the label of your self-hosted runner
 
     strategy:
       matrix:
